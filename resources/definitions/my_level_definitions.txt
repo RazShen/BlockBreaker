@@ -1,0 +1,65 @@
+
+# Level 1
+# Basic car
+
+START_LEVEL
+level_name:Basic car
+ball_velocities:45,500 -45,500 -30,500 30,500
+background:image(background_images/kiacar.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/kia_definitions.txt
+blocks_start_x:25
+blocks_start_y:120
+row_height:25
+num_blocks:15
+START_BLOCKS
+kkkkkkkkkkkkkkk
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Advanced car
+
+START_LEVEL
+level_name: Advanced car
+ball_velocities:45,400 -45,450 -30,400 30,450
+background:image(background_images/lexusCar.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/lexus_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:25
+START_BLOCKS
+bbbbbbbbbbbbbbb
+-----aaaaa-----
+-----baaab-----
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Professional car
+
+START_LEVEL
+level_name: Professional car
+ball_velocities:45,400 -45,450 -30,400 30,450
+background:image(background_images/bmwCar.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/bmw_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:40
+START_BLOCKS
+mmmmmmmmmmmmmmm
+--www--w--www--
+-----wwwww-----
+-mmmmmmmmmmmmm-
+END_BLOCKS
+END_LEVEL

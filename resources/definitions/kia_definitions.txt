@@ -1,0 +1,9 @@
+# default values for kia blocks
+default height:25 width:50 
+
+# block definitions
+bdef symbol:k hit_points:1 fill:image(block_images/kia.jpg)
+
+
+# spacers definitions
+sdef symbol:- width:50

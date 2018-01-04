@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: biuoop-1.4.jar resources
+Main-Class: Ass6Game
+
